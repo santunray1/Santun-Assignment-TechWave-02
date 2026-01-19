@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navbar-container nav{
+    display: flex;justify-content: space-between;
+    background-color: #9100F8;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.ThchWave-logo span{
+    background-image: linear-gradient(#F7E93F,#FB09B4,#9100F8 );
+}
+.nav-item  a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+.nav-item {
+    list-style: none;
+}
+.navbar-links{
+    display: flex;
+    /* text-decoration: none; */
+    gap: 32px;
+
+}
