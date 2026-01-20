@@ -55,10 +55,57 @@
     /* background-image:  */
     background: linear-gradient(#FB09B4,#9100F8, #F7E93F );
 }
-header{
-    /* background: url("../assets/hero-bg.png"); */
-}
-
 
 /* section-banner-container */
 
+header{
+    background: url("../assets/hero-bg.png");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.podcast{
+    background-color: rgba(26, 11, 46, 1);
+    width: 1600px;
+    height: 646px;
+    margin-top: 700px;
+}
+
+.podcast h3{
+    color: #FFFFFF;
+    text-align: center;
+    padding: 50px 200px ;
+    font-size: xx-large;
+}
+.podcast-top-describtion{
+    color: #b6b5b5;
+    text-align: center;
+    padding-left: 124px 200px 374px 200px;
+}
+.podcast-div{
+    display: flex;
+    padding: 220px 200px 120px 200px;
+}
+
+.podcast-green h1{
+    color: green;
+    font-size: xx-large;
+    text-align: center;
+
+}
+.podcast-div p{
+    color: #b6b5b5;
+}
