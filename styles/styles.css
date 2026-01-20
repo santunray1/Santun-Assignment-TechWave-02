@@ -63,6 +63,14 @@ header{
     background: url("../assets/hero-bg.png");
 }
 
+/* New New New New New New New New New New New New New New New New New New 
+New New New New New New New New New New New New New New New New New New 
+New New New New New New New New New New New New New New New New New New  */
+
+.hero{
+    background: url("../assets/hero-bg.png");
+    
+}
 
 
 
@@ -73,10 +81,9 @@ header{
 
 
 
-
-
-
-
+/* About the Podcast
+About the Podcast
+About the Podcast */
 
 .podcast{
     background-color: rgba(26, 11, 46, 1);
