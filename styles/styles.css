@@ -101,7 +101,7 @@ header{
 }
 
 .podcast-green h1{
-    color: green;
+    color: rgb(0, 255, 0);
     font-size: xx-large;
     text-align: center;
 
@@ -122,6 +122,7 @@ header{
   color: white;
   text-align: center;
   padding: 120px 200px 0px 200px;
+  font-size: 3rem;
 }
 
 .cord-container{
@@ -169,4 +170,153 @@ header{
     grid-column: span 2;
     width: 790px;
     height: 180px;
+}
+
+
+/* Featured Episodes */
+/* Featured-cord-container */
+
+
+.Featured-cord-container{
+    width: 1600px;
+    height: 800px;
+    background-color: #1A0B2E;
+
+}
+
+.Featured-titel{
+    color: white;
+    text-align: center;
+    /* padding: 120px 200px 0px 200px; */
+    padding: 120px 0px 0px 0px;
+    font-size: 4rem;
+
+}
+.Featured{
+    display: flex;
+    gap: 30px;
+    padding: 50px 200px 618px 200px;
+    justify-content: center;
+    
+}
+
+.card{
+    border: 1px solid blueviolet;
+    border-radius: 24px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 380px;
+    height: 440px;
+}
+
+.video{
+    width: 380px;
+    height: 214px;
+    border-radius: 24px;
+}
+
+.card h1{
+    color: white;
+    font-size: 24px;
+    padding: 24px 24px 12px 24px;
+    text-align: left;
+
+}
+.card p{
+    color: white;
+    padding: 12px 24px 12px 24px;
+    /* margin-left: 24px; */
+    text-align: left;
+
+}
+
+.video-time{
+    display: flex;
+    color: #04ff8a;
+    padding: 12px 24px 24px 24px ;
+    /* gap:2px; */
+    text-align: left;
+}
+.video-time h5{
+    margin-left: 0px;
+}
+
+/* Meet the Host section */
+.Host-section{
+    background-color: #1A0B2E;
+    width: 1600px;
+    height: 400px;
+    justify-content: center;
+
+}
+
+.Host-titel{
+    text-align: center;
+    margin-top: 0;
+    color: white;
+    font-size: 3rem;
+}
+
+.Host{
+    display: flex;
+    gap: 24px;
+    background-color: #230E3D;
+    border-radius: 40px;
+    width: 1200px;
+    height: 280px;
+    justify-content: center;
+    align-items: center;
+}
+
+.host-content {
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.host-content p{
+    color: #c9c6c6;
+}
+
+.host-imgas{
+    padding: 40px 24px 40px 40px;
+}
+
+.icon{
+    margin-top: 10px;
+    margin-left: 10px;
+    justify-content: space-between;
+}
+
+.icon{
+    display: flex;
+    gap: 16px;
+}
+.icon a{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #533C72;
+    /* gap: 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.icon a img{
+    width: 20px;
+    height: 20px;
+}
+.icon a:hover{
+    background-color: #04ff8a;
+}
+.host-content p{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+
+/* Footer-section */
+
+.Footer-section{
+    background-image: url();
 }
