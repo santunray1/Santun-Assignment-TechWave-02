@@ -6,12 +6,28 @@
   font-weight: 400;
   font-style: normal;
 }
+*{
+    margin: 0 auto;
+}
+
+/* navbar top section */
+
+.navbar-container{
+    background-color: #9100F8;
+    align-items: center;
+}
 
 .navbar-container nav{
-    display: flex;justify-content: space-between;
-    background-color: #9100F8;
+    display: flex;
+    justify-content: space-between;
     max-width: 1600px;
-    margin: 0 auto;
+    height: 92px;
+    align-items: center;
+    padding: 0 auto;
+    
+}
+.ThchWave-logo{
+    color: white;
 }
 .ThchWave-logo span{
     background-image: linear-gradient(#F7E93F,#FB09B4,#9100F8 );
@@ -30,3 +46,19 @@
     gap: 32px;
 
 }
+
+.btn{
+    width: 135px;
+    height: 44px;
+    border-radius: 20px;
+    border: none;
+    /* background-image:  */
+    background: linear-gradient(#FB09B4,#9100F8, #F7E93F );
+}
+header{
+    /* background: url("../assets/hero-bg.png"); */
+}
+
+
+/* section-banner-container */
+
