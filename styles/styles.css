@@ -14,7 +14,8 @@
 /* navbar top section */
 
 .navbar-container{
-    background-color: #9100F8;
+    /* background-color: #9100F8; */
+    background-color: #1A0B2E;
     align-items: center;
 }
 
@@ -31,7 +32,7 @@
     color: white;
 }
 .ThchWave-logo span{
-    background-image: linear-gradient(#F7E93F,#FB09B4,#9100F8 );
+    background:linear-gradient(135deg, yellow, #ff4ecd, #7f5cff) ;
 }
 .nav-item  a{
     display: flex;
@@ -49,18 +50,21 @@
 }
 
 .btn{
-    width: 135px;
-    height: 44px;
+    color: white;
+    background:linear-gradient(135deg, yellow, #ff4ecd, #7f5cff) ;
     border-radius: 20px;
+    width: 201px;
+    height: 44px;
+    font-size: 1.1rem;
+    cursor: pointer;
     border: none;
-    /* background-image:  */
-    background: linear-gradient(#FB09B4,#9100F8, #F7E93F );
 }
 
 /* section-banner-container */
 
 header{
-    background: url("../assets/hero-bg.png");
+    /* background: url("../assets/hero-bg.png"); */
+    /* background-color: #1A0B2E; */
 }
 
 /* New New New New New New New New New New New New New New New New New New 
@@ -69,12 +73,107 @@ New New New New New New New New New New New New New New New New New New  */
 
 .hero{
     background: url("../assets/hero-bg.png");
+    background-repeat: no-repeat;
+    text-align: center;
+    justify-content: center;
+    width: 1600px;
+    height: 760px;
     
 }
 
+.hero-bg{
+    width: 350px;
+    height: 350px;
+    top: 0px;
+    left: 100px;
+    padding: 101px 625px 40px 625px;
+
+}
+/* .hero-bg2{
+    width: 200px;
+    height: 200px;
+    top: 69px;
+    left: 175px;
+    margin: 0px;
+    padding: 8px 41px 16px 41px;
+    padding: 178px 742px 406px 741px;
+} */
 
 
+.badge{
+    position: absolute;
+    background: #04ff8a;
+    color: black;
+    border-radius: 10px;
+    width: 75px;
+    height: 38px;
+    /* align-items: center; */
+    /* text-align: center; */
+    padding: px 12px;
+    top: 200px;
+    left: +1000px;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
 
+
+.hero-bg-mic{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width:100px;
+    transform: translate(-45%, -110%);
+    z-index: 1;
+}
+
+.TechWave{
+    padding: 0px 525px 10px 525px;
+    color: white;
+    font-size: 4rem;
+
+}
+.hero p{
+    color: rgb(199, 193, 193);
+    padding: 20px 525px;
+
+}
+
+.hero-button{
+    gap: 8px;
+    /* display: flex; */
+    justify-content: space-between;
+}
+
+.btn-gradient {
+    color:white;
+    /* background-image: linear-gradient(to bottom,rgba(145, 0, 248, 1), red, yellow); */
+    /* background: linear-gradient(135deg,#ff4ecd,#7f5cff,yellow); */
+    background:linear-gradient(135deg, yellow, #ff4ecd, #7f5cff) ;
+    border-radius: 20px;
+    width: 201px;
+    height: 44px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.btn-outline{
+    align-items: center;
+    gap: 10px;
+    padding: 14px 28px;
+    border-radius: 30px;
+    background: transparent;
+    border: 1px solid #04ff8a;
+    color: #04ff8a;
+    font-size: 1rem;
+    font-weight: 600px;
+    cursor: pointer;
+}
+
+.btn-gradient img,
+.btn-outline img {
+    width: 20px;
+
+}
 
 
 
@@ -89,14 +188,15 @@ About the Podcast */
     background-color: rgba(26, 11, 46, 1);
     width: 1600px;
     height: 646px;
-    margin-top: 700px;
+    /* margin-top: 700px; */
 }
 
 .podcast h3{
     color: #FFFFFF;
     text-align: center;
     padding: 50px 200px ;
-    font-size: xx-large;
+    font-size: 1.4rem;
+    font-weight: 600px
 }
 .podcast-top-describtion{
     color: #b6b5b5;
