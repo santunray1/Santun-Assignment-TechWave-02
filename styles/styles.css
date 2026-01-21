@@ -49,6 +49,13 @@
 
 }
 
+.bars-menu{
+    border: 1px solid red;
+    color: white;
+    width: 24px;
+    height: 24px;
+}
+
 .btn{
     color: white;
     background:linear-gradient(135deg, yellow, #ff4ecd, #7f5cff) ;
@@ -78,6 +85,7 @@ New New New New New New New New New New New New New New New New New New  */
     justify-content: center;
     width: 1600px;
     height: 760px;
+    position: relative;
     
 }
 
@@ -99,7 +107,9 @@ New New New New New New New New New New New New New New New New New New  */
     padding: 178px 742px 406px 741px;
 } */
 
-
+.badge .mic-criclr{
+    position: relative;
+}
 .badge{
     position: absolute;
     background: #04ff8a;
@@ -110,8 +120,8 @@ New New New New New New New New New New New New New New New New New New  */
     /* align-items: center; */
     /* text-align: center; */
     padding: px 12px;
-    top: 200px;
-    left: +1000px;
+    top: 150px;
+    left: 900px;
     font-weight: 600;
     font-size: 1.2rem;
 }
@@ -498,4 +508,41 @@ About the Podcast */
 .Footer-padding p{
     color: rgb(216, 216, 216);
     font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Mobile View  */
+
+/* Responsive Mobile View  */
+
+
+@media screen and (max-width:576px) {
+    .navbar-links,
+    .btn{
+        display: none;
+    }
+}
+
+
+
+@media screen and (min-width:992px), and ( max-width:1400px) {
+    .bars-menu{
+        display: none;
+    }
 }
